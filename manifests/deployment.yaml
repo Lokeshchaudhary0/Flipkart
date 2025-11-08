@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flipkart
-          image: containerregistryloukesh.azurecr.io/flipkart
+          image: containerregistryloukesh.azurecr.io/flipkart:v1
           ports:
             - containerPort: 8080
              
